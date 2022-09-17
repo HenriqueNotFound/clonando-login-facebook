@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #F0F2F5;
+
+}
+
+.geral {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.facebook {
+    margin-right: 120px;
+}
+
+.facebook img {
+    display: flex;
+    flex-direction: row;
+    max-width: 300px;
+    margin: 0px 0px 1px -28px;  
+}
+
+.facebook h2 {
+    text-align: left;
+    color: #1c1e21;
+    padding: 0px 0px 20px;
+    font-size: 24px;
+    max-width: 500px;
+    width: auto;
+    font-weight: 100;
+}
+
+.login-info {
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0px 28px;
+    width: 396px;
+}
+
+.user {
+    height: 42px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    margin-bottom: 10px;
+}
+
+.senha { 
+    height: 42px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    margin-bottom: 15px;
+}
+
+.entrar {
+    color: #fff;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    margin-bottom: 10px;
+}
+
+.entrar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.entrar:hover {
+    transition: 200ms;
+    background-color: #4267b2;
+    border-color: #4267b2;
+    cursor: pointer;
+}
+
+.esqueceu-senha a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #1877f2;
+}
+
+.esqueceu-senha:hover {
+    text-decoration: underline;
+}
+
+.divisoria-login {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+
+.nova-conta button {
+    border-radius: 6px;
+    color: #fff;
+    background-color: #42b72a;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.nova-conta button:hover {
+    background-color: #43b82a;
+}
+
+.criar-pag {
+    margin-top: 20px;
+    width: 396px;
+    font-size: 14px;
+}
+
+.criar-pag a {
+    font-weight: 700;
+    color: #1c1e21;
+    text-decoration: none;
+}
+
+.criar-pag a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background-color: #fff;
+    width: 95%;
+    padding: 3rem;
+    margin-top: auto;
+}
+
+footer a {
+    margin-right: 12px;
+    text-decoration: none;
+    color: #8A8D91;
+}
+
+footer p {
+    margin-top: 10px;
+    text-decoration: none;
+    color: #8A8D91; 
+}
